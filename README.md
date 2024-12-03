@@ -53,7 +53,7 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
         - CUDA: 12.4
   - evaluation:
     - testing_data:
-    - dataset: timzhou99/nursing-pharmacology
+      - dataset: timzhou99/nursing-pharmacology
   - description:
     - The model was evaluated on a subset of the timzhou99/nursing-pharmacology dataset hosted on HuggingFace using specific healthcare-related tasks.
   - metrics:
@@ -61,4 +61,3 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
       - Evaluated as a measure of model fluency.
     - domain_specific_accuracy:
       - Assessed based on its ability to generate accurate healthcare protocols.
-```
